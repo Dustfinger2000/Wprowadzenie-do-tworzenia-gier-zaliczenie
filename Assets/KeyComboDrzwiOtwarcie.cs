@@ -16,6 +16,9 @@ public class KeyComboDrzwiOtwarcie : MonoBehaviour
 				currentIndex++;
 			}
 		}
+		//Do tego miejsca kod można kopiować do różnych obiektów
+		//Koncówkę trzeba dopisywać w zależności co dane combo ma robić
+		//Jak np w tym przypadku otwiera drzwi.
 		
 		if (currentIndex == combo.Length)
 		{
