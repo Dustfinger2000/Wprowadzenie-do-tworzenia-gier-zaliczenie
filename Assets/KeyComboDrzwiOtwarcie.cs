@@ -4,26 +4,40 @@ using UnityEngine;
 
 public class KeyComboDrzwiOtwarcie : MonoBehaviour
 {
+	public float Radius=1f;
     public KeyCode[] combo;
 	public int currentIndex = 0;
+	public bool Open = false;
  
-	void Update() 
-	{
-		if (currentIndex < combo.Length) 
+		//Do miejsca oznaczonego gwiazdką kod można kopiować dzięki czemu tę sekcję można wykorzystać do różnych rzeczy np Eastereggi czy wywyoływanie zaklęć
+		void Update() 
 		{
-			if (Input.GetKeyDown(combo[currentIndex]) ) 
+			if (currentIndex < combo.Length) 
 			{
-				currentIndex++;
+				if (Input.GetKeyDown(combo[currentIndex])) 
+				{
+					currentIndex++;
+				}
 			}
 		}
-		//Do tego miejsca kod można kopiować do różnych obiektów
-		//Koncówkę trzeba dopisywać w zależności co dane combo ma robić
-		//Jak np w tym przypadku otwiera drzwi.
-		
-		if (currentIndex == combo.Length)
+		//*
+	
+		void Awake()
 		{
-			Destroy(GetComponent<MeshRenderer>());
-			Destroy(GetComponent<BoxCollider>());
+			GetComponent<SphereCollider>().radius=Radius;
 		}
-	}
+	
+		void OnTriggerStay(Collider sphere)
+		{
+			if (currentIndex==combo.Length)
+			{
+				Open = true;
+			}
+			
+			if(Open==true&&Input.GetButtonDown("Use"))
+			{
+				Destroy(GetComponent<MeshRenderer>());
+				Destroy(GetComponent<BoxCollider>());
+			}
+		}
 }
