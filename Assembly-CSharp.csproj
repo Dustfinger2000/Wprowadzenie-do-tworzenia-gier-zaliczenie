@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{46D1BE08-0A25-B226-A78A-7DCA0DDCE10D}</ProjectGuid>
+    <ProjectGuid>{082A9836-5349-930F-02D9-44E148CDC7EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,7 +66,7 @@
      <Compile Include="Assets\Inventory.cs" />
      <Compile Include="Assets\InventorySlot.cs" />
      <Compile Include="Assets\Item.cs" />
-     <Compile Include="Assets\KeyComboDrzwiOtwarcie.cs" />
+     <Compile Include="Assets\KeyComboOtwarcieDrzwi.cs" />
      <Compile Include="Assets\main_camera.cs" />
      <Compile Include="Assets\player_movement.cs" />
      <Compile Include="Assets\PlayerStats.cs" />
@@ -75,25 +75,25 @@
      <Compile Include="Assets\Treasure.cs" />
      <Compile Include="Assets\UImanager.cs" />
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.36f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -297,7 +297,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.36f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>P:/Moje pliki/Szkoła/Wprowadzenie do tworzenia gier zaliczenie/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.36f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
