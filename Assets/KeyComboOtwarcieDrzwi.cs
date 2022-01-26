@@ -29,6 +29,7 @@ public class KeyComboOtwarcieDrzwi : MonoBehaviour
 			if(Input.GetButtonDown("Use"))
 			{
 				currentIndex = 0;
+				Open = false;
 			}
 		}
 		//*
