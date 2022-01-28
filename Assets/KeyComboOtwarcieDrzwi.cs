@@ -19,10 +19,10 @@ public class KeyComboOtwarcieDrzwi : MonoBehaviour
 					currentIndex++;
 				}
 			}
-			
+			//*
 			if(currentIndex>0&&currentIndex<3&&Input.GetButtonDown("Use"))
 			{
-				Debug.Log("To zaklęcie jest za krótkie! Muszę je powtórzyć...");
+				Debug.Log("Kombinacja zbyt krótka. Wprowadź ponownie");
 				currentIndex = 0;
 			}
 			
@@ -32,7 +32,7 @@ public class KeyComboOtwarcieDrzwi : MonoBehaviour
 				Open = false;
 			}
 		}
-		//*
+		
 	
 		void Awake()
 		{
@@ -51,7 +51,7 @@ public class KeyComboOtwarcieDrzwi : MonoBehaviour
 			{
 				Destroy(GetComponent<MeshRenderer>());
 				Destroy(GetComponent<BoxCollider>());
-				Debug.Log("Ordi, Dissmo, Ostis!");
+				Debug.Log("Drzwi otwarte");
 				Open = false;
 			}
 		}
